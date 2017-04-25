@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300);
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: #161C33;
+}
+
+.card {
+    overflow: hidden;
+}
+.card .btn {
+    background-color: #0F142A;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    width: 55%;
+    margin: 80px auto;
+    font-size: 30px;
+    color: #44B19B;
+    line-height: 50px;
+    height: 50px;
+    border: 3px solid rgba(79, 117, 128, 0.5);
+    z-index: 1;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.card .btn:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px #A74C64, 0 0 70px 10px #91A1F7, 0 0 126px 23px #45B19B;
+}
+
+svg {
+    z-index: 2;
+}
+
+.svg-1, .svg-2, .svg-3 {
+    position: absolute;
+    top: 20px;
+    left: -135px;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.svg-1 {
+    -moz-animation: fly-1 10s infinite ease-in-out;
+    -webkit-animation: fly-1 10s infinite ease-in-out;
+    animation: fly-1 10s infinite ease-in-out;
+}
+
+.svg-2 {
+    top: 80px;
+    left: 308px;
+    -moz-animation: fly-2 7s infinite ease-in-out;
+    -webkit-animation: fly-2 7s infinite ease-in-out;
+    animation: fly-2 7s infinite ease-in-out;
+}
+
+.svg-3 {
+    top: 160px;
+    left: 100px;
+    -moz-animation: fly-3 5s alternate infinite ease-in-out;
+    -webkit-animation: fly-3 5s alternate infinite ease-in-out;
+    animation: fly-3 5s alternate infinite ease-in-out;
+}
+
+.svg-b {
+    opacity: 0.2;
+    -moz-transform: scale(5.1, 5.1);
+    -ms-transform: scale(5.1, 5.1);
+    -webkit-transform: scale(5.1, 5.1);
+    transform: scale(5.1, 5.1);
+    top: -50px;
+    left: 30px;
+    -moz-animation: fly-4 10s alternate infinite ease-in-out;
+    -webkit-animation: fly-4 10s alternate infinite ease-in-out;
+    animation: fly-4 10s alternate infinite ease-in-out;
+}
+
+.svg-2.svg-b {
+    top: auto;
+    bottom: -124px;
+    left: auto;
+    right: -24px;
+}
+
+@-webkit-keyframes fly-1 {
+    50% {
+        -moz-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+}
+@-moz-keyframes fly-1 {
+    50% {
+        -moz-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+}
+@keyframes fly-1 {
+    50% {
+        -moz-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+}
+@-webkit-keyframes fly-2 {
+    50% {
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+@-moz-keyframes fly-2 {
+    50% {
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+@keyframes fly-2 {
+    50% {
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+@-webkit-keyframes fly-3 {
+    50% {
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+}
+@-moz-keyframes fly-3 {
+    50% {
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+}
+@keyframes fly-3 {
+    50% {
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+}
+@-webkit-keyframes fly-4 {
+    50% {
+        -moz-transform: scale(5.2, 5.2);
+        -ms-transform: scale(5.2, 5.2);
+        -webkit-transform: scale(5.2, 5.2);
+        transform: scale(5.2, 5.2);
+    }
+}
+@-moz-keyframes fly-4 {
+    50% {
+        -moz-transform: scale(5.2, 5.2);
+        -ms-transform: scale(5.2, 5.2);
+        -webkit-transform: scale(5.2, 5.2);
+        transform: scale(5.2, 5.2);
+    }
+}
+@keyframes fly-4 {
+    50% {
+        -moz-transform: scale(5.2, 5.2);
+        -ms-transform: scale(5.2, 5.2);
+        -webkit-transform: scale(5.2, 5.2);
+        transform: scale(5.2, 5.2);
+    }
+}
